@@ -7,9 +7,10 @@ void setup()
 {
   lcd.begin();
   lcd.backlight();
-  lcd.setCursor(1, 0);
-  lcd.print("Message");
-  lcd.setCursor(1, 1);
+  lcd.setCursor(0, 0); // First row
+  lcd.print("First row");
+  lcd.setCursor(0, 1); // Second row
+  lcd.print("Second row");
 }
 
 
